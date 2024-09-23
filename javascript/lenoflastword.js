@@ -1,6 +1,6 @@
 var lengthOfLastWord = function(s) {
-  return s.split(" ")[s.split(" ").length - 1].length;
+  return s.split(" ").filter(word => word.length > 0).pop().length;
 };
 
-let res = lengthOfLastWord('where are you dude12')
+let res = lengthOfLastWord("   fly me   to   the moon  ")
 console.log(res);

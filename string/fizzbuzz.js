@@ -17,4 +17,4 @@ var fizzBuzz = function(n) {
 };
 
 // Example usage:
-console.log(fizzBuzz(3)); // Output: ["1", "2", "Fizz"]
+console.log(fizzBuzz(3)); 
